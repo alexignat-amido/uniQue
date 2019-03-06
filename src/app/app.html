@@ -1,0 +1,28 @@
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content style="background:url(assets/img/drIf5VGFS2ufRJmaY7bO_walpaper.jpg) no-repeat center;background-size:cover;background-color:#181818;" id="side-menu21">
+    <img src="assets/img/XV0oN4jDQcal9nkaaC0j_be-unique1.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+    <ion-list id="menu-list1">
+      <ion-item color="dark" menuClose="" on-click="goToHome()" id="menu-list-item1">
+        Home
+      </ion-item>
+      <ion-item color="dark" menuClose="" on-click="goToUniQue()" id="menu-list-item2">
+        uniQue
+      </ion-item>
+      <ion-item color="dark" menuClose="" on-click="goToAbout()" id="menu-list-item3">
+        About
+      </ion-item>
+    </ion-list>
+    <button id="menu-button9" ion-button color="assertive" block style="font-weight:600;" menuClose="" on-click="goToLogin()">
+      Logout
+    </button>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
